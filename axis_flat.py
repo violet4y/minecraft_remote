@@ -34,7 +34,7 @@ def draw_XYZ_axis(mc, wait=0.1):
     You must create mc or instance of Minecraft world beforehand.
     """
     blockTypeIdX = param.IRON_BLOCK
-    blockTypeIdY = param.GRASS_BLOCK
+    blockTypeIdY = param.DIAMOND_BLOCK
     blockTypeIdZ = param.GOLD_BLOCK
     BLOCK_TOP_LIGHT = param.GLOWSTONE
 
