@@ -33,7 +33,7 @@ def draw_XYZ_axis(mc, wait=0.1):
     Draw xyz axis with some wait between placing each block.
     You must create mc or instance of Minecraft world beforehand.
     """
-    blockTypeIdX = param.STONE
+    blockTypeIdX = param.IRON_BLOCK
     blockTypeIdY = param.GRASS_BLOCK
     blockTypeIdZ = param.GOLD_BLOCK
     BLOCK_TOP_LIGHT = param.GLOWSTONE
