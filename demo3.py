@@ -39,6 +39,6 @@ mc.postToChat("こんにちは！")
 
 axis_flat.reset_minecraft_world(mc, width=40)
 axis_flat.clear_XYZ_axis(mc, wait=0)
-axis_flat.draw_XYZ_axis(mc, wait=0.3)
+axis_flat.draw_XYZ_axis(mc, wait=0.1)
 
 mc.postToChat("X,Y,Z 表示完了")
