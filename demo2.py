@@ -44,7 +44,7 @@ msg = '1-23:45'
 display1.update(msg, block_letters=param.IRON_BLOCK)
 mc.postToChat(msg)
 
-time.sleep(4)
+time.sleep(6)
 msg = '6543210'
 display1.update(msg, block_letters=param.GOLD_BLOCK)
 mc.postToChat(msg)
