@@ -25,3 +25,4 @@ for i in range(7):
     POS += 1
     Z = 10
 mc.postToChat("ピラミッド作成完了!!")
+mc.setBlock(15, 68, 15, param.GLOWSTONE)
