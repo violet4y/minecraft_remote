@@ -1,4 +1,4 @@
-# It is test file
+# ピラミッド作成プログラム
 from multiprocessing.connection import wait
 from re import X
 from time import sleep
