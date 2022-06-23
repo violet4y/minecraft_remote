@@ -22,7 +22,7 @@ for i in range(7):
     for i in range(11-POS*2):
         for i in range(10-POS*2):
             mc.setBlock(X+AT+POS, Y+POS, Z+POS, param.GOLD_BLOCK)
-            AT =+ 1
+            AT += 1
             sleep(0.1)
         AT = 0
         Z += 1
