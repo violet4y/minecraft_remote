@@ -18,4 +18,13 @@ for i in range(10):
     mc.setBlocks(X + POS, Y + POS, Z, X + POS, Y + POS, Z + 10, param.GOLD_BLOCK)
     sleep(0.3)
     POS += 1
+
+sleep(5)
+
+POS = 0
+for i in range(10):
+    mc.setBlocks(X + POS, Y + POS, Z, X + POS, Y + POS, Z + 10, param.AIR)
+    sleep(0.3)
+    POS += 1
+
 mc.postToChat("finished")
