@@ -8,6 +8,7 @@ from multiprocessing.connection import wait
 from re import X
 from tkinter import Y
 """
+"def 試験型"
 
 mc = Minecraft.create(port=param.PORT_MC)  # MCJE:14712, MCPI:4711
 mc.postToChat("demo4")
