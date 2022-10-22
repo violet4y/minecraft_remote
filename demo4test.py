@@ -18,9 +18,10 @@ X=10
 Y=63
 Z=10
 H=5
+SLEEP=0.2
 BLOCK=param.GOLD_BLOCK
 POS = 0   #位置情報 
-mc.setBlocks(X, Y, Z, X+2*H-1, Y+H+1, Z+2*H-1, param.AIR)
+mc.setBlocks(X, Y, Z, X+2*H-2, Y+H+1, Z+2*H-2, param.AIR)
 sleep(3)
 
 mc.postToChat("ピラミッド作成開始")
@@ -29,7 +30,7 @@ for i in range(H+1):
     for i in range(2*H-1-POS*2):
         mc.setBlocks(X+POS, Y+POS, Z+POS, X+2*H-2-POS, Y+POS, Z+POS, BLOCK)
         Z += 1
-        sleep(0.8)
+        sleep(SLEEP)
     Z -= 2*H-1-POS*2
     POS += 1
     
