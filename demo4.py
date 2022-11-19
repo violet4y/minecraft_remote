@@ -30,5 +30,9 @@ def set_piramid(X=10, Y=63, Z=10, H=6, SLEEP=0.8, BLOCK=param.GOLD_BLOCK):
     
     mc.setBlock(X+POS-2, Y+POS-2, Z+POS-3, param.GLOWSTONE)
 
+    if __name__ == "__main__":
+        mc = Minecraft.create(port=param.PORT_MC)
+        set_piramid(X, Z=10, Y=63, H=6, SLEEP=0.3, BLOCK=param.GOLD_BLOCK)
+
 
 
